@@ -149,7 +149,9 @@ export default function HomePage() {
                   <div key={event._id} className="w-100 h-100 p-2">
                     <div className="ratio ratio-16x9 w-100 h-100">
                       <img
-                        src={`http://localhost:5000/uploads/events/${event.image}`}
+                        // 
+                        src={`https://grabware.onrender.com/uploads/events/${event.image}`}
+                        
                         alt={event.event_name}
                         className="img-fluid rounded shadow"
                         style={{
@@ -442,7 +444,9 @@ export default function HomePage() {
     {n.details}{" "}
     {n.pdf && (
       <a
-        href={`http://localhost:5000/uploads/notifications/${n.pdf}`}
+        // href={`http://localhost:5000/uploads/notifications/${n.pdf}`}
+        href={`https://grabware.onrender.com/uploads/notifications/${n.pdf}`}
+        
         target="_blank"
         rel="noopener noreferrer"
         style={{
@@ -464,7 +468,9 @@ export default function HomePage() {
     )}
     {n.photo && (
       <img
-        src={`http://localhost:5000/uploads/notifications/${n.photo}`}
+        // src={`http://localhost:5000/uploads/notifications/${n.photo}`}
+        src={`https://grabware.onrender.com/uploads/notifications/${n.photo}`}
+        
         alt=""
         style={{
           width: "100px",
@@ -723,7 +729,9 @@ export default function HomePage() {
             }}
           >
             <img
-              src={`http://localhost:5000/uploads/implinks/${link.image}`}
+              // src={`http://localhost:5000/uploads/implinks/${link.image}`}
+              src={`https://grabware.onrender.com/uploads/implinks/${link.image}`}
+              
               alt={link.link_name}
               style={{
                 width: "120px",

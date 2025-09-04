@@ -1,8 +1,9 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/ordercircular";
-
+//const API_URL = "http://localhost:5000/api/ordercircular";
+const API_URL = "https://grabware.onrender.com/api/ordercircular";
+//https://grabware.onrender.com/api/admin/all
 // Async thunks
 export const fetchCirculars = createAsyncThunk("circulars/fetchAll", async () => {
   const res = await axios.get(`${API_URL}/all`);

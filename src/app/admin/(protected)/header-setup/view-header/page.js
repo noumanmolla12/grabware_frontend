@@ -363,7 +363,9 @@ function ViewHeader() {
                       <td className="px-4 py-3">
                         {header.logo && (
                           <img
-                            src={`http://localhost:5000/uploads/${header.logo}`}
+                            // src={`http://localhost:5000/uploads/${header.logo}`}
+                            src={`https://grabware.onrender.com/uploads/${header.logo}`}
+                            
                             alt="Logo"
                             className="w-16 h-auto rounded"
                           />

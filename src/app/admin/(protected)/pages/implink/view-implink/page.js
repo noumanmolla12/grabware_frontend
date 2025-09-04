@@ -54,7 +54,7 @@ export default function ViewImportantLinks() {
             <tr key={link._id}>
               <td>
                 <img
-                  src={`http://localhost:5000/uploads/implinks/${link.image}`}
+                  src={`https://grabware.onrender.com/uploads/implinks/${link.image}`}
                   alt="link-img"
                   width={80}
                 />

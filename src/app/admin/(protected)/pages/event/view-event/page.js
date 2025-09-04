@@ -56,7 +56,8 @@ export default function ViewEventPage() {
                 <tr key={event._id} className="border-t">
                   <td className="p-3">
                     <img
-                      src={`http://localhost:5000/uploads/events/${event.image}`}
+                      // src={`http://localhost:5000/uploads/events/${event.image}`}
+                      src={`https://grabware.onrender.com/uploads/events/${event.image}`}
                       alt={event.event_name}
                       className="w-40 h-24 object-cover rounded"
                     />

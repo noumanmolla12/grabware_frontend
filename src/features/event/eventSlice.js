@@ -1,8 +1,9 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const API_BASE = 'http://localhost:5000/api/events';
-
+//const API_BASE = 'http://localhost:5000/api/events';
+const API_BASE = 'https://grabware.onrender.com/api/events';
+//https://grabware.onrender.com/api/admin/all
 // Thunks
 
 // CREATE

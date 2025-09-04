@@ -587,7 +587,9 @@ const Header = () => {
             />
             <EditableField field="logo" value={logo}>
               <img
-                src={`http://localhost:5000/uploads/${logo}`}
+                // src={`http://localhost:5000/uploads/${logo}`}
+                src={`https://grabware.onrender.com/uploads/${logo}`}
+                
                 alt="Company Logo"
                 style={{
                   width: '60px',
@@ -681,7 +683,9 @@ const Header = () => {
                 <div>
                   <p style={{ marginBottom: '5px' }}>Existing Logo:</p>
                   <img
-                    src={`http://localhost:5000/uploads/${logo}`}
+                    // src={`http://localhost:5000/uploads/${logo}`}
+                    src={`https://grabware.onrender.com/uploads/${logo}`}
+                    
                     alt="Existing Logo"
                     style={{ width: '100px', height: '100px', objectFit: 'cover', borderRadius: '50%' }}
                   />

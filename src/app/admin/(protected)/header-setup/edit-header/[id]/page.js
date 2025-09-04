@@ -43,7 +43,7 @@ function EditHeader() {
         youtube: header.youtube || '',
         logo: null,
       });
-      setExistingLogo(header.logo ? `http://localhost:5000/uploads/${header.logo}` : null);
+      setExistingLogo(header.logo ? `https://grabware.onrender.com/uploads/${header.logo}` : null);
     }
   }, [id, headers]);
 

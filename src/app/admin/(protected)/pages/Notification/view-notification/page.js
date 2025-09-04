@@ -266,7 +266,7 @@ export default function ViewNotifications() {
                   <td className="p-3">
                     {n.pdf && (
                       <a
-                        href={`http://localhost:5000/uploads/notifications/${n.pdf}`}
+                        href={`https://grabware.onrender.com/uploads/notifications/${n.pdf}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-red-600 flex items-center gap-1"
@@ -276,7 +276,7 @@ export default function ViewNotifications() {
                     )}
                     {n.photo && (
                       <img
-                        src={`http://localhost:5000/uploads/notifications/${n.photo}`}
+                        src={`https://grabware.onrender.com/uploads/notifications/${n.photo}`}
                         alt=""
                         className="w-20 h-12 object-cover rounded mt-1"
                       />
