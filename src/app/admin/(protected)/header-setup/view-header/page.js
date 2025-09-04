@@ -364,7 +364,7 @@ function ViewHeader() {
                         {header.logo && (
                           <img
                             // src={`http://localhost:5000/uploads/${header.logo}`}
-                            src={`https://grabware.onrender.com/uploads/${header.logo}`}
+                            src={`https://grabware-api.onrender.com/uploads/${header.logo}`}
                             
                             alt="Logo"
                             className="w-16 h-auto rounded"

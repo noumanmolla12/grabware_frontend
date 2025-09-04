@@ -1,5 +1,5 @@
 //export const BASE_URL = 'http://localhost:5000/api';
-export const BASE_URL = 'https://grabware.onrender.com/api';
+export const BASE_URL = 'https://grabware-api.onrender.com/api';
 //https://grabware.onrender.com/api/admin/all
 
 

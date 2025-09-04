@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
 //const API = "http://localhost:5000/api/notifications";
-const API = "https://grabware.onrender.com/api/notifications";
+const API = "https://grabware-api.onrender.com/api/notifications";
 //https://grabware.onrender.com/api/admin/all
 // Fetch all
 export const fetchNotifications = createAsyncThunk("notifications/fetch", async () => {

@@ -66,7 +66,7 @@ export default function EditEventPage() {
       {/* Preview Image */}
       <div className="mb-4">
         <img
-          src={`https://grabware.onrender.com/uploads/events/${selectedEvent.image}`}
+          src={`https://grabware-api.onrender.com/uploads/events/${selectedEvent.image}`}
           alt="Event"
           className="w-60 h-auto mx-auto border rounded shadow"
         />

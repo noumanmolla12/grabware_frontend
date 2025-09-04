@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 //const API_BASE = 'http://localhost:5000/api/implinks';
-const API_BASE = 'https://grabware.onrender.com/api/implinks';
+const API_BASE = 'https://grabware-api.onrender.com/api/implinks';
 //https://grabware.onrender.com/api/admin/all
 export const addImportantLink = createAsyncThunk('implink/add', async (formData) => {
   const res = await axios.post(`${API_BASE}/add`, formData, {

@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 //const API_URL = 'http://localhost:5000/api/headers';
-const API_URL = 'https://grabware.onrender.com/api/headers';
+const API_URL = 'https://grabware-api.onrender.com/api/headers';
 //https://grabware.onrender.com/api/admin/all
 // ✅ Fetch all headers
 export const fetchHeaders = createAsyncThunk(

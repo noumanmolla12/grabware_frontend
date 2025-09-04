@@ -161,7 +161,7 @@ export default function EditNotification() {
         />
         {currentNotification?.pdf && !pdf && (
           <a
-            href={`https://grabware.onrender.com/uploads/notifications/${currentNotification.pdf}`}
+            href={`https://grabware-api.onrender.com/uploads/notifications/${currentNotification.pdf}`}
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 underline mt-2 inline-block"
@@ -182,7 +182,7 @@ export default function EditNotification() {
         />
         {currentNotification?.photo && !photo && (
           <img
-            src={`https://grabware.onrender.com/uploads/notifications/${currentNotification.photo}`}
+            src={`https://grabware-api.onrender.com/uploads/notifications/${currentNotification.photo}`}
             alt="Current Photo"
             className="w-32 h-auto mt-2 border rounded shadow"
           />

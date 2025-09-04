@@ -142,7 +142,7 @@ const Header = () => {
             style={{ height: '60px' }}
           />
           <img
-            src={`https://grabware.onrender.com/uploads/${logo}`}
+            src={`https://grabware-api.onrender.com/uploads/${logo}`}
             alt="Company Logo"
             style={{
               width: '60px',
